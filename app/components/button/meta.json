@@ -1,0 +1,31 @@
+{
+  "name": "Button",
+  "description": "A customizable button component with multiple variants",
+  "category": "form", 
+  "tags": ["button", "interactive", "form"],
+  "version": "1.0.0",
+  "dependencies": {
+    "npm": ["clsx", "class-variance-authority"],
+    "peer": ["react"]
+  },
+  "props": [
+    {
+      "name": "variant",
+      "type": "string",
+      "required": false,
+      "default": "primary",
+      "description": "Button style variant",
+      "options": ["primary", "secondary", "destructive"]
+    }
+  ],
+  "examples": [
+    {
+      "name": "Basic Usage",
+      "code": "<Button>Click me</Button>"
+    }
+  ],
+  "files": [
+    "component.jsx",
+    "index.js"
+  ]
+}
