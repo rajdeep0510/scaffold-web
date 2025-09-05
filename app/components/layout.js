@@ -9,6 +9,8 @@ export default function ComponentsLayout({ children }) {
     { name: "Button", href: "/components/button" },
     { name: "Card", href: "/components/card" },
     { name: "Input", href: "/components/input" },
+    { name: "Skeleton", href: "/components/skeleton" }
+
   ];
 
   return (
